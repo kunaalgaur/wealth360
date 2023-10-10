@@ -9,7 +9,7 @@ const Footer = () => {
                 <div id={styles.left}>
                     <span id={styles.heading}>Wealth360</span>
                     <span id={styles.text}>
-                        Welcome to Wealth360 Finserv Private Limited, your
+                        Welcome to Wealth360 Finserve Private Limited, your
                         dedicated partner in financial success. We are committed
                         to helping you achieve your financial goals through
                         innovative solutions and personalized service. Your
@@ -30,21 +30,24 @@ const Footer = () => {
                     <div className={styles.information}>
                         <BsPinMap />
                         <span className={styles.informationText}>
-                            271, Radhika Apartment, Sector -14, Dwarka, New
-                            Delhi - 110078
+                            MR-1, 5th Floor, Wing-A, Statesman House, Barakhamba
+                            Road, Connaught Place, New Delhi - 110001
                         </span>
                     </div>
 
                     <div className={styles.information}>
                         <BsTelephone />
                         <span className={styles.informationText}>
-                            + 91 9315430566
+                            + 91 9540035164
                         </span>
                     </div>
 
                     <div className={styles.information}>
                         <BsEnvelopeAt />
-                        <span className={styles.informationText}></span>
+                        {/* add the company email here  */}
+                        <span className={styles.informationText}>
+                            wealth360finserve@gmail.com
+                        </span>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,7 @@ const Topbar = () => {
     return (
         <nav id={styles.container}>
             <Link id={styles.left} href="/">
+                {/* this is an temporary logo, and will be changed in production  */}
                 <Image
                     src="/logo.png"
                     alt="An unknown error occured"
@@ -15,9 +16,10 @@ const Topbar = () => {
                     unoptimized
                 />
 
-                <span id={styles.heading}>Wealth360 Finserve</span>
+                <span id={styles.heading}>Wealth360</span>
             </Link>
 
+            {/* add the link in href attriburte  */}
             <a href="#" id={styles.button}>
                 Sign in
             </a>

@@ -17,7 +17,7 @@ const poppins: NextFontWithVariable = Poppins({
 // Declaring metadata configurations for SEO purpose
 const metadata: Metadata = {
     title: 'Wealth360',
-    description: '', //left blank for future inhancement
+    description: '', //left blank for future inhancement(SEO)
 };
 
 const AppLayout = ({ children }: { children: React.ReactNode }) => {

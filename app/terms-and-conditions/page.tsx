@@ -5,6 +5,7 @@ import animation from './animation.json';
 import { useLottie } from 'lottie-react';
 
 const Page = () => {
+    // lottie files configration
     const options = {
         animationData: animation,
         loop: true,

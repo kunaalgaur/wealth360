@@ -51,7 +51,7 @@ const Footer = () => {
 
             <div id={styles.bottom}>
                 <span>
-                    All rights reserved by Wealth360 . Copyright &copy; 2023
+                    All rights reserved by Wealth360 . Copyright &copy; 2023-25
                 </span>
             </div>
         </footer>

@@ -3,6 +3,8 @@
     --color-2: #1363df;
     --color-3: #47b5ff;
     --color-4: #dff6ff;
+    --scrollbarBG: #cfd8dc;
+    --thumbBG: #90a4ae;
 
     --border: ; /* if any  */
     --box-shadow: ; /* if any  */
@@ -19,4 +21,20 @@ body {
     background-color: var(--color-4);
     color: var(--color-1);
     overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-1) var(--color-4);
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--color-4);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color-1);
+    border-radius: 6px;
+    border: 3px solid var(--color-4);
 }

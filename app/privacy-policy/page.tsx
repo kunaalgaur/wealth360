@@ -13,8 +13,8 @@ const Page = () => {
     const { View } = useLottie(options);
     return (
         <div id={styles.container}>
-            <div>
-                <span id={styles.heading}></span>
+            <div id={styles.wrapper}>
+                <span id={styles.heading}>Privacy Policy</span>
                 {View}
             </div>
         </div>

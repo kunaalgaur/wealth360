@@ -64,6 +64,7 @@
     place-items: center;
     padding: 20px;
     background-color: var(--color-3);
+    text-align: center;
 }
 
 @media (orientation: portrait) {

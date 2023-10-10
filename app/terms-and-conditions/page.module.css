@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0 20%;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    height: 60vh;
+}
+
+#heading {
+    font-size: xx-large;
+    font-weight: 600;
+    color: var(--color-2);
+}
+
+@media (orientation: portrait) {
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

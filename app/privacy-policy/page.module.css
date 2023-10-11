@@ -27,3 +27,9 @@
 .text {
     text-align: justify;
 }
+
+@media (orientation: portrait) {
+    #container {
+        padding: 10px;
+    }
+}

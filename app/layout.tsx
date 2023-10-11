@@ -1,5 +1,3 @@
-'use client';
-
 import { NextFontWithVariable } from 'next/dist/compiled/@next/font';
 import Topbar from '@/components/shared/Topbar/Topbar';
 import Footer from '@/components/shared/Footer/Footer';

@@ -1,9 +1,11 @@
-import { Poppins } from 'next/font/google';
+'use client';
+
 import { NextFontWithVariable } from 'next/dist/compiled/@next/font';
-import { Metadata } from 'next';
-import './globals.css';
 import Topbar from '@/components/shared/Topbar/Topbar';
 import Footer from '@/components/shared/Footer/Footer';
+import { Poppins } from 'next/font/google';
+import { Metadata } from 'next';
+import './globals.css';
 
 // Declaring fonts configurations
 const poppins: NextFontWithVariable = Poppins({
@@ -20,15 +22,17 @@ const metadata: Metadata = {
     description: '', //left blank for future inhancement(SEO)
 };
 
-const AppLayout = ({ children }: { children: React.ReactNode }) => {
+const AppLayout = ({
+    children,
+}: {
+    children: React.ReactNode;
+}): JSX.Element => {
     return (
         <html lang="en" suppressHydrationWarning={true}>
-            <body
-                className={`${poppins.variable}`}
-                suppressHydrationWarning={true}>
-                <Topbar />
-                {children}
-                <Footer />
+            <body className={poppins.className} suppressHydrationWarning={true}>
+                    <Topbar />
+                    {children}
+                    <Footer />
             </body>
         </html>
     );

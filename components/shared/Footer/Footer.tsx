@@ -72,7 +72,7 @@ const Footer = (): JSX.Element => {
                             transitionDelay: '0.3s',
                         }}
                         viewport={{ once: true }}>
-                        <BsPinMap />
+                        <BsPinMap className={styles.icon} />
                         <span className={styles.informationText}>
                             MR-1, 5th Floor, Wing-A, Statesman House, Barakhamba
                             Road, Connaught Place, New Delhi - 110001
@@ -88,7 +88,7 @@ const Footer = (): JSX.Element => {
                             transitionDelay: '0.3s',
                         }}
                         viewport={{ once: true }}>
-                        <BsTelephone />
+                        <BsTelephone className={styles.icon} />
                         <span className={styles.informationText}>
                             + 91 9540035164
                         </span>
@@ -103,7 +103,7 @@ const Footer = (): JSX.Element => {
                             transitionDelay: '0.3s',
                         }}
                         viewport={{ once: true }}>
-                        <BsEnvelopeAt />
+                        <BsEnvelopeAt className={styles.icon} />
                         {/* add the company email here  */}
                         <span className={styles.informationText}>
                             wealth360finserve@gmail.com

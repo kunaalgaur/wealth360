@@ -50,8 +50,11 @@
     display: flex;
     gap: 20px;
     color: var(--color-3);
-    font-size: x-large;
     align-items: center;
+}
+
+.icon {
+    font-size: x-large;
 }
 
 .informationText {
@@ -71,5 +74,9 @@
     #top {
         display: flex;
         flex-direction: column;
+    }
+
+    #text {
+        width: 100%;
     }
 }

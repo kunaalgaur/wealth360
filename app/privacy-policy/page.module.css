@@ -26,10 +26,11 @@
 
 .text {
     text-align: justify;
+    font-size: 10px;
 }
 
 @media (orientation: portrait) {
     #container {
-        padding: 10px;
+        padding: 20px;
     }
 }

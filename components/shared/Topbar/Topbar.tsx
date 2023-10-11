@@ -16,18 +16,11 @@ const Topbar = (): JSX.Element => {
                 <Image
                     src="/logo.png"
                     alt="An unknown error occured"
-                    height={50}
-                    width={50}
+                    height={80}
+                    width={80}
                     id={styles.image}
                     unoptimized
                 />
-
-                <motion.span
-                    id={styles.heading}
-                    initial={{ opacity: 0, y: '-100%' }}
-                    whileInView={{ opacity: 1, y: '0%' }}>
-                    Wealth360
-                </motion.span>
             </Link>
 
             {/* add the link in href attriburte  */}

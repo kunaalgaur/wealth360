@@ -1,35 +1,30 @@
 #container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    height: calc(100vh - 60px);
-    padding: 10%;
-}
-
-#left {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: calc(100vh - 60px);
+    position: relative;
+    backdrop-filter: brightness(30%);
 }
 
 #heading {
-    font-size: xx-large;
+    font-size: 3rem;
     font-weight: 600;
     color: var(--color-2);
+    text-align: center;
 }
 
 #text {
-    font-size: large;
-}
-
-#imageContainer {
-    height: 50vh;
+    font-size: larger;
+    width: 50%;
+    text-align: center;
+    color: var(--color-4);
 }
 
 @media (orientation: portrait) {
-    #container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+    #text {
+        width: 100%;
     }
 }

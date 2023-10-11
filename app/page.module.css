@@ -22,6 +22,10 @@
     font-size: large;
 }
 
+#imageContainer {
+    height: 50vh;
+}
+
 @media (orientation: portrait) {
     #container {
         display: flex;

@@ -3,8 +3,11 @@
 import styles from './page.module.css';
 import animation from './animation.json';
 import { useLottie } from 'lottie-react';
+import { motion } from 'framer-motion';
 
-const Page = () => {
+// motion is an export from  the framer motion library, please refer to https://www.framer.com/motion/introduction/ before making any changes
+
+const Page = (): JSX.Element => {
     // lottie files configration
     const options = {
         animationData: animation,
@@ -15,8 +18,19 @@ const Page = () => {
     return (
         <div id={styles.container}>
             <div id={styles.wrapper}>
-                <span id={styles.heading}>Privacy Policy</span>
-                {View}
+                <motion.span
+                    id={styles.heading}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
+                    Privacy Policy
+                </motion.span>
+                <motion.div
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
+                    {View}
+                </motion.div>
             </div>
         </div>
     );

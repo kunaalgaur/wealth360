@@ -16,11 +16,18 @@ const Topbar = (): JSX.Element => {
                 <Image
                     src="/logo.png"
                     alt="An unknown error occured"
-                    height={80}
-                    width={80}
+                    height={50}
+                    width={50}
                     id={styles.image}
                     unoptimized
                 />
+
+                <motion.span
+                    id={styles.heading}
+                    initial={{ opacity: 0, y: '-100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}>
+                    Wealth360
+                </motion.span>
             </Link>
 
             {/* add the link in href attriburte  */}
@@ -29,7 +36,7 @@ const Topbar = (): JSX.Element => {
                 id={styles.button}
                 initial={{ opacity: 0, y: '-100%' }}
                 whileInView={{ opacity: 1, y: '0%' }}>
-                Sign in
+                Client login
             </motion.a>
         </motion.nav>
     );

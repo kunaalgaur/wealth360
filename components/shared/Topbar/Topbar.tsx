@@ -1,10 +1,16 @@
+'use client';
+
 import Image from 'next/image';
 import styles from './Topbar.module.css';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
-const Topbar = () => {
+const Topbar = (): JSX.Element => {
     return (
-        <nav id={styles.container}>
+        <motion.nav
+            id={styles.container}
+            initial={{ opacity: 0, y: '-100%' }}
+            whileInView={{ opacity: 1, y: '0%' }}>
             <Link id={styles.left} href="/">
                 {/* this is an temporary logo, and will be changed in production  */}
                 <Image
@@ -16,14 +22,23 @@ const Topbar = () => {
                     unoptimized
                 />
 
-                <span id={styles.heading}>Wealth360</span>
+                <motion.span
+                    id={styles.heading}
+                    initial={{ opacity: 0, y: '-100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}>
+                    Wealth360
+                </motion.span>
             </Link>
 
             {/* add the link in href attriburte  */}
-            <a href="#" id={styles.button}>
+            <motion.a
+                href="#"
+                id={styles.button}
+                initial={{ opacity: 0, y: '-100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}>
                 Sign in
-            </a>
-        </nav>
+            </motion.a>
+        </motion.nav>
     );
 };
 

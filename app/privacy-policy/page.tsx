@@ -7,8 +7,18 @@ import { motion } from 'framer-motion';
 const page = () => {
     return (
         <div id={styles.container}>
-            <motion.span id={styles.heading}>Privacy Policy</motion.span>
-            <motion.span className={styles.text}>
+            <motion.span
+                id={styles.heading}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
+                Privacy Policy
+            </motion.span>
+            <motion.span
+                className={styles.text}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 This privacy policy sets out how Wealth360 Finserve Private
                 Limited uses and protects any information that you share when
                 you use this website and our mobile app. Wealth360 Finserve
@@ -18,12 +28,20 @@ const page = () => {
                 website and mobile app, you can be assured that it will only be
                 used in accordance with this privacy statement.
             </motion.span>
-            <motion.span className={styles.text}>
+            <motion.span
+                className={styles.text}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 Wealth360 Finserve Private Limited may change this policy from
                 time to time by updating this page. This policy is effective
                 from 11 October 2023.
             </motion.span>
-            <motion.span className={styles.text}>
+            <motion.span
+                className={styles.text}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 Wealth360 Finserve Private Limited understands that our
                 relationship is strongly built on trust and faith. In Course of
                 using information on this website or availing the services,
@@ -49,54 +67,106 @@ const page = () => {
                 is not responsible for the setup of any hyperlink from a third
                 party website to Wealth360 Finserve Private Limited.
             </motion.span>
-            <motion.span className={styles.subHeading}>
+            <motion.span
+                className={styles.subHeading}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 What we collect?
             </motion.span>
-            <motion.span className={styles.text}>
+            <motion.span
+                className={styles.text}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 We may collect the following information:
             </motion.span>
             <motion.ul className={styles.ul}>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     Name and contact details
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     Personal information, including date of birth, Aadhaar
                     Number, and Permanent Account Number (PAN)
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     Demographic information such as gender and income
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     Other information that can help us improve our services
                 </motion.li>
             </motion.ul>
-            <motion.span className={styles.subHeading}>
+            <motion.span
+                className={styles.subHeading}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 What we do with the information we gather?
             </motion.span>
             <motion.ul className={styles.ul}>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     To conduct Know-Your-Customer registration as required by
                     SEBI and/or other regulatory bodies
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     To perform compliance checks and keep/maintain internal
                     records
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     To use the information to improve our products and services
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     To periodically send emails to your registered email address
                     about your investments, or other information which we think
                     you may find interesting.
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     You will be free to unsubscribe from our mailing list at any
                     time if you do not wish to receive such emails from us. From
                     time-to-time, we may also use your information to contact
                     you via phone or email for market research purposes.
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     We will not sell, distribute or lease your personal
                     information to third parties unless we are required to share
                     such information under the terms and conditions of the
@@ -104,17 +174,35 @@ const page = () => {
                     by law.
                 </motion.li>
             </motion.ul>
-            <motion.span className={styles.subHeading}>Security</motion.span>
-            <motion.span className={styles.text}>
+            <motion.span
+                className={styles.subHeading}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
+                Security
+            </motion.span>
+            <motion.span
+                className={styles.text}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 We are committed to ensuring that your information is secure. In
                 order to prevent unauthorised access or disclosure, we have put
                 in place suitable physical, electronic and managerial procedures
                 to safeguard and secure the information we collect online.
             </motion.span>
-            <motion.span className={styles.subHeading}>
+            <motion.span
+                className={styles.subHeading}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 Links to other websites
             </motion.span>
-            <motion.span className={styles.text}>
+            <motion.span
+                className={styles.text}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 Our website may contain links to other websites of interest.
                 However, once you have used these links to leave our site, you
                 should note that we do not have any control over such
@@ -123,44 +211,80 @@ const page = () => {
                 whilst visiting such sites. You should exercise caution and look
                 at the privacy statement applicable to the website in question.
             </motion.span>
-            <motion.span className={styles.subHeading}>
+            <motion.span
+                className={styles.subHeading}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 Controlling your personal information
             </motion.span>
-            <motion.span className={styles.text}>
+            <motion.span
+                className={styles.text}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 If you believe that any of your information with us is incorrect
                 or incomplete, please email us as soon as possible and we will
                 promptly correct any information found to be incorrect.
             </motion.span>
-            <motion.span className={styles.subHeading}>
+            <motion.span
+                className={styles.subHeading}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 Security certificates
             </motion.span>
-            <motion.span className={styles.text}>
+            <motion.span
+                className={styles.text}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 Wealth360 Finserve Private Limited is an online financial
                 services company. We fully recognise and understand the security
                 implications of being a service provider with whom people trust
                 their money. There are many safeguards we adopt in this regard -
                 some of these are technical, and some are structural.
             </motion.span>
-            <motion.span className={styles.subHeading}>
+            <motion.span
+                className={styles.subHeading}
+                initial={{ opacity: 0, y: '100%' }}
+                whileInView={{ opacity: 1, y: '0%' }}
+                viewport={{ once: true }}>
                 When it comes to data security, our goal is to ensure that:
             </motion.span>
             <motion.ul className={styles.ul}>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     Your data is stored safely and securely - passwords are
                     one-way encrypted before being stored in the database for
                     high security.
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     All communication with you, or with mutual fund companies
                     and other service providers - are encrypted using the
                     highest standards.
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     Your data is not shared with anyone, unless you have
                     explicitly requested us to do so to fulfil a transaction
                     request.
                 </motion.li>
-                <motion.li className={styles.text}>
+                <motion.li
+                    className={styles.text}
+                    initial={{ opacity: 0, y: '100%' }}
+                    whileInView={{ opacity: 1, y: '0%' }}
+                    viewport={{ once: true }}>
                     To ensure that we achieve these goals, we have a variety of
                     certifications/trust verifications in place for our firm,
                     both from technical and legal/operational perspectives. All

@@ -4,8 +4,10 @@ import { NextFontWithVariable } from 'next/dist/compiled/@next/font';
 import Topbar from '@/components/shared/Topbar/Topbar';
 import Footer from '@/components/shared/Footer/Footer';
 import { Poppins } from 'next/font/google';
+import styles from './layout.module.css';
 import { Metadata } from 'next';
 import './globals.css';
+import { Parallax } from 'react-parallax';
 
 // Declaring fonts configurations
 const poppins: NextFontWithVariable = Poppins({
@@ -30,9 +32,11 @@ const AppLayout = ({
     return (
         <html lang="en" suppressHydrationWarning={true}>
             <body className={poppins.className} suppressHydrationWarning={true}>
-                    <Topbar />
-                    {children}
-                    <Footer />
+                <Topbar />
+                
+
+                {children}
+                <Footer />
             </body>
         </html>
     );

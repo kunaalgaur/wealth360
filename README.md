@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wealth360 - Finance Advising Website
+
+Wealth360 is a static website designed to provide financial advice and services to users. This project consists of three main pages: a landing page, terms and conditions, and a privacy policy.
 
 ## Getting Started
 
-First, run the development server:
+To run Wealth360 locally, follow these instructions:
+
+### Prerequisites
+
+Before you begin, ensure you have the following software installed on your system:
+
+-   Node.js: Download and install Node.js from [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/Wealth360finserve/wealth360.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd wealth360
+    ```
+
+3. Install project dependencies using npm:
+
+    ```bash
+    npm install
+    ```
+
+### Running the Website
+
+Once the installation is complete, you can run the website locally using the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website will be accessible at [http://localhost:3000](http://localhost:3000) in your web browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Landing Page**: The main page of the website, providing an overview of Wealth360's financial advising services.
 
-## Learn More
+2. **Terms and Conditions Page**: Detailed terms and conditions governing the use of Wealth360's financial advisory services.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Privacy Policy Page**: Information about the privacy policy of Wealth360, detailing how user data is handled.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-   [Node.js](https://nodejs.org/) - JavaScript runtime for building the website.
+-   [React](https://reactjs.org/) - JavaScript library used for building the user interface.
+-   [Next.js](https://nextjs.org/) - React framework used for server-side rendering and routing.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We welcome contributions from the community. If you'd like to contribute to Wealth360, please follow our [contributing guidelines](CONTRIBUTING.md).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contact
+
+If you have any questions or need assistance, feel free to reach out to us at [wealth360finserve@gmail.com](wealth360finserve@gmail.com).
+
+Thank you for using Wealth360!

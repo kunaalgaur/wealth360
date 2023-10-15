@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px 20%;
+    padding-top: 100px;
 }
 
 #heading {

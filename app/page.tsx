@@ -13,25 +13,24 @@ const page = () => {
                 bgImage="/bg.jpg"
                 bgImageAlt="Background image"
                 bgStyle={{ filter: 'brightness(30%)' }}
-                strength={300}>
+                strength={50}>
                 <div id={styles.container}>
                     <motion.span
                         id={styles.heading}
                         initial={{ opacity: 0, y: '100%' }}
                         whileInView={{ opacity: 1, y: '0%' }}
                         viewport={{ once: true }}>
-                        Invest in mutual funds easily!
+                        Welcome to Wealth360 Finserve Private Limited
                     </motion.span>
                     <motion.span
                         id={styles.text}
                         initial={{ opacity: 0, y: '100%' }}
                         whileInView={{ opacity: 1, y: '0%' }}
                         viewport={{ once: true }}>
-                        Growing your investments can be a challenging endeavor.
-                        However, having timely access to accurate market
-                        intelligence and the assistance of a well-positioned and
-                        competent team can significantly enhance your prospects
-                        for success.
+                        Wealth360 Finserve Private Limited is a leading
+                        Financial Company where we are assisting our client in
+                        the feild of Personal Finance and helping them in
+                        identifying and meeting their Financial Goals.
                     </motion.span>
                 </div>
             </Parallax>

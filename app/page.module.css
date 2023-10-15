@@ -4,13 +4,13 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    height: calc(100vh - 60px);
+    height: 100vh;
     position: relative;
-    backdrop-filter: brightness(30%);
+    backdrop-filter: brightness(50%);
 }
 
 #heading {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--color-2);
     text-align: center;
@@ -24,6 +24,10 @@
 }
 
 @media (orientation: portrait) {
+    #container {
+        padding: 10px;
+    }
+
     #text {
         width: 100%;
     }

@@ -65,7 +65,7 @@
     display: grid;
     place-items: center;
     padding: 20px;
-    background-color: var(--color-3);
+    background-color: white;
     text-align: center;
 }
 

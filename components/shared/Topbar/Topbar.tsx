@@ -32,10 +32,11 @@ const Topbar = (): JSX.Element => {
 
             {/* add the link in href attriburte  */}
             <motion.a
-                href="#"
+                href="https://wealth360.investwell.app/app/#/login"
                 id={styles.button}
                 initial={{ opacity: 0, y: '-100%' }}
-                whileInView={{ opacity: 1, y: '0%' }}>
+                whileInView={{ opacity: 1, y: '0%' }}
+                target="__blank">
                 Client login
             </motion.a>
         </motion.nav>

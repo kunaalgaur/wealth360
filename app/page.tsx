@@ -12,7 +12,7 @@ const page = () => {
                 blur={0}
                 bgImage="/bg.jpg"
                 bgImageAlt="Background image"
-                bgStyle={{ filter: 'brightness(50%)' }}
+                bgStyle={{ filter: 'brightness(60%)' }}
                 strength={50}>
                 <div id={styles.container}>
                     <motion.span

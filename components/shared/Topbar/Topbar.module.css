@@ -5,13 +5,13 @@
     height: 60px;
     width: 100%;
     padding: 0 10%;
-    /* background-color: var(--color-1); */
-    backdrop-filter: blur(10px);
+    background-color: var(--color-3);
+    /* backdrop-filter: blur(10px); */
     position: fixed;
     top: 0;
     z-index: 100;
     overflow: hidden;
-    border-bottom: 1px solid #85858555;
+    /* border-bottom: 1px solid #85858555; */
 }
 
 #left {

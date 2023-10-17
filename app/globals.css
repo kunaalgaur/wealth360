@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: var(--color-4);
+    background-color: white;
     color: var(--color-1);
     overflow-x: hidden;
     scrollbar-width: thin;

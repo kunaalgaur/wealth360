@@ -65,8 +65,10 @@
     display: grid;
     place-items: center;
     padding: 20px;
-    background-color: white;
+    background-color: var(--color-1);
     text-align: center;
+    color: var(--color-4);
+    border-top: 1px solid var(--color-4);
 }
 
 @media (orientation: portrait) {

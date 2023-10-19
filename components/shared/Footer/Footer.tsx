@@ -106,7 +106,7 @@ const Footer = (): JSX.Element => {
                         <BsEnvelopeAt className={styles.icon} />
                         {/* add the company email here  */}
                         <span className={styles.informationText}>
-                            wealth360finserve@gmail.com
+                            service@thewealth360.com
                         </span>
                     </motion.div>
                 </div>

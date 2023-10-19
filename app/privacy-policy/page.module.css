@@ -2,14 +2,15 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px 20%;
+    padding: 20px 10%;
     padding-top: 100px;
 }
 
 #heading {
     color: var(--color-2);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .subHeading {
@@ -27,7 +28,6 @@
 
 .text {
     text-align: justify;
-    font-size: 10px;
 }
 
 @media (orientation: portrait) {

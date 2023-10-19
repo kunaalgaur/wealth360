@@ -1,16 +1,16 @@
 import { NextFontWithVariable } from 'next/dist/compiled/@next/font';
 import Topbar from '@/components/shared/Topbar/Topbar';
 import Footer from '@/components/shared/Footer/Footer';
-import { Poppins } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 import { Metadata } from 'next';
 import './globals.css';
 
 // Declaring fonts configurations
-const poppins: NextFontWithVariable = Poppins({
+const poppins: NextFontWithVariable = Roboto({
     preload: true,
     style: ['normal', 'italic'],
-    weight: ['300', '400', '500', '600'],
-    subsets: ['latin', 'devanagari', 'latin-ext'],
+    weight: ['300', '400', '500', '700', '900'],
+    subsets: ['latin', 'latin-ext'],
     variable: '--poppins',
 });
 

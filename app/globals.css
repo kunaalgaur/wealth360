@@ -1,8 +1,8 @@
 :root {
-    --color-1: #06283d;
-    --color-2: #1363df;
-    --color-3: #47b5ff;
-    --color-4: #dff6ff;
+    --color-1: #112d4e;
+    --color-2: #3f72af;
+    --color-3: #dbe2ef;
+    --color-4: #f9f7f7;
 
     --border: ; /* if any  */
     --box-shadow: ; /* if any  */
@@ -20,7 +20,7 @@ body {
     color: var(--color-1);
     overflow-x: hidden;
     scrollbar-width: thin;
-    scrollbar-color: var(--color-1) var(--color-4);
+    scrollbar-color: var(--color-1) white;
 }
 
 body::-webkit-scrollbar {
@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: var(--color-4);
+    background: white;
 }
 
 body::-webkit-scrollbar-thumb {
